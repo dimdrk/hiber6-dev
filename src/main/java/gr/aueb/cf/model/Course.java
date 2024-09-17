@@ -11,7 +11,7 @@ public class Course {
     private Long id;
     private String title;
 
-    @ManyToOne(fetch = FetchType.EAGER)     // instance default EAGER
+    @ManyToOne(fetch = FetchType.LAZY)     // instance default EAGER
     @JoinColumn(name = "teacher_id")
     private Teacher teacher;
 

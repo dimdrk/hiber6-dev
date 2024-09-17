@@ -14,7 +14,7 @@ public class Teacher {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-//    @Column(name = "firstname", length = 255, nullable = false,unique = false, updatable = true)
+//    @Column(name = "firstname", length = 255, nullable = false,unique = false, updatable = true)  // Default values
     private String firstname;
     private String lastname;
 
